@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "studio-signal-marketplace",
+  "description": "AI-powered media & entertainment intelligence for Claude — research, daily briefs, and market data.",
+  "owner": {
+    "name": "Harkins Capital, LLC"
+  },
+  "plugins": [
+    {
+      "name": "studio-signal",
+      "description": "Give Claude real-time M&E intelligence. Research any company, get executive daily briefs, track 30+ media stocks, and apply MBA-level analytical frameworks — all backed by verified sources from across the entertainment industry.",
+      "author": { "name": "Harkins Capital, LLC" },
+      "category": "research",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vfxprojoe/studiosignal-plugin",
+        "path": ".",
+        "ref": "main"
+      }
+    }
+  ]
+}

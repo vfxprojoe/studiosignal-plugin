@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "studio-signal": {
+      "command": "npx",
+      "args": ["-y", "@studiosignal/mcp-server@latest"],
+      "env": {
+        "STUDIO_SIGNAL_API_KEY": "${STUDIO_SIGNAL_API_KEY}"
+      }
+    }
+  }
+}

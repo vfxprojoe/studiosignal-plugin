@@ -1,0 +1,12 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin-manifest.json",
+  "name": "studio-signal",
+  "version": "1.0.0",
+  "description": "AI-powered media & entertainment intelligence — real-time research, daily executive briefs, M&E sector stocks, and professional analytical frameworks for Claude.",
+  "author": {
+    "name": "Harkins Capital, LLC",
+    "email": "support@studiosignal.app"
+  },
+  "homepage": "https://studiosignal.app",
+  "privacyPolicy": "https://studiosignal.app/legal"
+}
