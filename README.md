@@ -22,11 +22,23 @@
 
 ## 🔑 Setup
 
-You'll need a Studio Signal API key (free at [developer.studiosignal.app](https://developer.studiosignal.app)):
+1. **Get an API key** (free at [developer.studiosignal.app](https://developer.studiosignal.app))
+
+2. **Add it to your shell profile** so Claude Code inherits it on launch:
 
 ```bash
-export STUDIO_SIGNAL_API_KEY=ss_live_your_key_here
+echo 'export STUDIO_SIGNAL_API_KEY=ss_live_your_key_here' >> ~/.zshrc   # or ~/.bashrc
 ```
+
+3. **Enable the plugin**, then **restart Claude Code** (a fresh launch is required so the MCP server's process picks up the variable):
+
+```bash
+/plugin install studio-signal@studio-signal-marketplace
+```
+
+4. Verify with the `get_usage` tool — it should show your tier and query count.
+
+> ⚠️ Exporting the key *inside* an already-running Claude session won't work — the variable must be in the environment **before** Claude Code starts.
 
 ## 📦 What's Included
 
