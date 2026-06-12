@@ -58,7 +58,7 @@ echo 'export STUDIO_SIGNAL_API_KEY=ss_live_your_key_here' >> ~/.zshrc   # or ~/.
 | Skill | What it adds |
 |-------|-------------|
 | `me-domain` | Core M&E industry domain knowledge — streaming, film, music, gaming, VFX, creator economy |
-| `research-frameworks` | 20+ MBA-level analytical frameworks adapted for M&E (SWOT, Porter's, DCF, IP Valuation, etc.) |
+| `research-frameworks` | 30+ MBA-level analytical frameworks — competitive battlecards, Porter's, 7 Powers, ad economics, IP valuation, etc. |
 | `daily-workflow` | Morning intelligence workflow — brief → market data → deep dive → research |
 | `market-analysis` | M&E sector stock analysis — 30+ tracked tickers, sector groupings, catalyst mapping |
 
@@ -82,7 +82,8 @@ echo 'export STUDIO_SIGNAL_API_KEY=ss_live_your_key_here' >> ~/.zshrc   # or ~/.
 Once installed, just ask naturally:
 
 - *"What's happening in M&E today?"* — triggers the daily workflow
-- *"Analyze Netflix's competitive position"* — calls ask_kai with frameworks
+- *"Competitor research: Signiant vs Aspera"* — calls ask_kai with competitive battlecard framework
+- *"Analyze Netflix's competitive position"* — calls ask_kai (7 Powers or competitive, server-selected)
 - *"Show me M&E stocks"* — fetches live market data
 - *"Do a full analysis of the Disney-ESPN situation"* — invokes the kai-analyst agent
 
@@ -96,7 +97,7 @@ claude-plugin/
 ├── .mcp.json                # MCP server bundle
 ├── skills/
 │   ├── me-domain/           # M&E industry domain knowledge
-│   ├── research-frameworks/ # 20+ analytical frameworks
+│   ├── research-frameworks/ # 30+ analytical frameworks
 │   ├── daily-workflow/      # Daily intel workflow
 │   └── market-analysis/     # Stock/market analysis
 ├── commands/

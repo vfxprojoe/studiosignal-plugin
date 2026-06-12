@@ -1,5 +1,4 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "studio-signal-marketplace",
   "description": "AI-powered media & entertainment intelligence for Claude — research, daily briefs, and market data.",
   "owner": {

@@ -26,7 +26,12 @@ Execute these steps in order, adapting based on the user's specific request:
 ### Step 3: Deep Research
 - Call `ask_kai` with a well-crafted research query based on the user's request
 - Incorporate context from steps 1 and 2 to make the query more specific
-- Example: Instead of "analyze Netflix", ask "Analyze Netflix's competitive position in light of [today's brief context] and its [current stock movement]"
+- Phrase queries to activate the right server-side framework:
+  - Head-to-head vendors: "Competitor research: [A] vs [B] — [today's context]"
+  - Moats: "Does [company] have a durable competitive advantage given [context]?"
+  - Earnings: "[Company] Q2 earnings breakdown"
+  - Use "SWOT analysis of [X]" only when the user explicitly requested SWOT
+- Skip `get_stocks` / stock context for private-company or B2B media-tech competitor queries unless a public peer is in scope
 
 ### Step 4: Synthesize
 Combine all gathered intelligence into a comprehensive analysis:
