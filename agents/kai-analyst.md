@@ -46,8 +46,7 @@ Combine all gathered intelligence into a comprehensive analysis:
 Offer the user:
 1. A deeper dive into any sub-topic
 2. A comparative analysis against competitors
-3. A LinkedIn post from the findings (`generate_linkedin`)
-4. Stock detail on any mentioned company
+3. Stock detail on any mentioned company
 
 ## Behavior Guidelines
 - Be analytically rigorous — cite specific metrics, companies, deals, and numbers

@@ -42,7 +42,7 @@ echo 'export STUDIO_SIGNAL_API_KEY=ss_live_your_key_here' >> ~/.zshrc   # or ~/.
 
 ## 📦 What's Included
 
-### MCP Tools (6)
+### MCP Tools (5)
 
 | Tool | What it does |
 |------|-------------|
@@ -50,7 +50,6 @@ echo 'export STUDIO_SIGNAL_API_KEY=ss_live_your_key_here' >> ~/.zshrc   # or ~/.
 | `get_daily_brief` | Today's executive intelligence brief — top stories, market movers |
 | `get_deep_dive` | In-depth analysis of the day's most significant M&E story |
 | `get_stocks` | Live stock data for 30+ M&E companies |
-| `generate_linkedin` | Transform research into a LinkedIn post |
 | `get_usage` | Check API usage stats |
 
 ### Skills (4)

@@ -16,4 +16,3 @@ Present the analysis with clear section headers and highlight key takeaways.
 After presenting, offer to:
 - Research related topics via `ask_kai`
 - Check stock data for companies mentioned via `get_stocks`
-- Generate a LinkedIn post from the analysis via `generate_linkedin`

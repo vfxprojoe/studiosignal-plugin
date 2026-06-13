@@ -74,7 +74,6 @@ When you need live data or current analysis, use these MCP tools:
 | `get_daily_brief` | Morning executive intelligence brief — top M&E stories ranked by impact |
 | `get_deep_dive` | In-depth analysis of the day's most significant M&E story |
 | `get_stocks` | Live stock data for 30+ M&E companies (NFLX, DIS, CMCSA, WBD, etc.) |
-| `generate_linkedin` | Transform research into a LinkedIn thought-leadership post |
 | `get_usage` | Check API usage stats for the current billing period |
 
 ## Entity Disambiguation

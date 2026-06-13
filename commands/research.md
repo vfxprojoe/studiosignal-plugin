@@ -14,4 +14,3 @@ Present the research results with full formatting — headers, data points, sour
 After presenting, offer follow-up options:
 - Deeper analysis on a sub-topic
 - Comparative analysis against a competitor
-- Generate a LinkedIn post from the research (`generate_linkedin`)
